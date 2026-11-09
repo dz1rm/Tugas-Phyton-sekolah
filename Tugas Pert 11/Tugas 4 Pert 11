@@ -1,0 +1,13 @@
+def tentukan_kategori(nilai):
+    if nilai >= 85:
+        return "Sangat Baik"
+    elif nilai >= 75:
+        return "Baik"
+    elif nilai >= 60:
+        return "Cukup"
+    else:
+        return "Kurang"
+
+nilai = int(input("Masukkan nilai: "))
+kategori = tentukan_kategori(nilai)
+print("Kategori nilai:", kategori)

@@ -1,0 +1,27 @@
+def hitung_nilai_akhir(tugas, uts, uas):
+    nilai_akhir = (tugas * 0.3) + (uts * 0.3) + (uas * 0.4)
+    return nilai_akhir
+
+def tentukan_kelulusan (nilai):
+    if nilai >= 60:
+        return "Lulus"
+    else:
+        return "Tidak Lulus"
+
+def tampilkan_hasil(nama, nilai_akhir, kelulusan):
+    print("Nama:", nama)
+    print("Nilai Akhir:", nilai_akhir)
+    print("Status Kelulusan:", kelulusan)
+
+def main():
+    nama = input("Masukkan nama mahasiswa: ")
+    tugas = float(input("Masukkan nilai tugas: "))
+    uts = float(input("Masukkan nilai UTS: "))
+    uas = float(input("Masukkan nilai UAS: "))
+
+    nilai_akhir = hitung_nilai_akhir(tugas, uts, uas)
+    kelulusan = tentukan_kelulusan(nilai_akhir)
+
+    tampilkan_hasil(nama, nilai_akhir, kelulusan)
+
+main()

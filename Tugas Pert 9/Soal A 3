@@ -1,0 +1,4 @@
+kalimat = " belajar algoritma "
+print(kalimat.strip())
+print(kalimat.upper())
+print(kalimat.replace("algoritma", "Python"))

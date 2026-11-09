@@ -1,0 +1,4 @@
+buah = ["apel", "jeruk", "mangga", "pisang"]
+buah.remove("jeruk")
+buah.pop()
+print(buah)

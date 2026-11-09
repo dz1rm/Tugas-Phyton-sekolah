@@ -1,0 +1,20 @@
+def hitung_total(harga, jumlah):
+    subtotal = harga * jumlah
+    diskon = subtotal * 0.1 if subtotal > 100000 else 0
+    return subtotal - diskon
+
+
+def cetak_struk(nama, total):
+    print("--- STRUK ---")
+    print(f"Barang: {nama} | Total: {total}")
+
+
+def main():
+    print("Selamat datang di Toko XYZ")
+    nama = input("Nama barang: ")
+    harga = float(input("Harga barang: "))
+    jml = int(input("Jumlah beli: "))
+
+    total = hitung_total(harga, jml)
+    cetak_struk(nama, total)
+main()

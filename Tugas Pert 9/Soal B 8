@@ -1,0 +1,7 @@
+nilai = [45, 80, 70, 80, 60]
+
+print("Jumlah data:", len(nilai))
+print("Frekuensi nilai 80:", nilai.count(80))
+
+nilai.sort()
+print("Nilai terurut:", nilai)

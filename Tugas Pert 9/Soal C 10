@@ -1,0 +1,7 @@
+angka = [4, 7, 3, 6]
+total = 0
+
+for n in angka:
+    total += n
+
+print(total)

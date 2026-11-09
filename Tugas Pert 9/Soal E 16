@@ -1,0 +1,17 @@
+nilai = [78, 60, 85, 72, 90]
+
+nilai[1] = 70
+nilai.append(88)
+
+total = 0
+jumlah = 0
+
+for n in nilai:
+    total += n
+
+    if n >= 75:
+        jumlah += 1
+
+print("List akhir:", nilai)
+print("Total nilai:", total)
+print("Jumlah nilai >= 75:", jumlah)

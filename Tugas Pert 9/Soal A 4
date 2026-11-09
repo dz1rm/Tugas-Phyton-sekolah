@@ -1,0 +1,8 @@
+teks = "Sistem Informasi Universitas Jambi"
+
+teks_kecil = teks.lower()
+daftar_kata = teks_kecil.split()
+
+print(teks_kecil)
+print(daftar_kata)
+print(len(daftar_kata))

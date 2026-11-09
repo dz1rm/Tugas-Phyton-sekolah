@@ -1,0 +1,4 @@
+daftar_A = ["Buku", "Pensil"]
+daftar_B = daftar_A
+daftar_B.append("Penghapus")
+print(daftar_A)

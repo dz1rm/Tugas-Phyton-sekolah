@@ -1,0 +1,6 @@
+def hitung_rata2 (tugas, uts, uas):
+    rata2 = (tugas + uts + uas) / 3
+    return rata2
+
+hasil = hitung_rata2(80, 90, 85)
+print("Nilai Rata-rata:", hasil)

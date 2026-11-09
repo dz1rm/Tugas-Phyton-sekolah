@@ -1,0 +1,8 @@
+total = 0
+counter = 0
+for i in range(1, 6):
+    nilai = i * 10
+    total += nilai
+    counter += 1
+print(total)
+print(counter)

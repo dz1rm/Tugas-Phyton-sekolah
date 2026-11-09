@@ -1,0 +1,5 @@
+nilai = [70, 80, 65]
+nilai.append(90)
+nilai.insert(1, 75)
+nilai[0] = 85
+print(nilai)

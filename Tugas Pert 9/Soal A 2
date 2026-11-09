@@ -1,0 +1,5 @@
+kata = "PEMROGRAMAN"
+print(kata[0:4])
+print(kata[4:8])
+print(kata[-3:])
+print(kata[:-2])

@@ -1,0 +1,9 @@
+nilai = [55, 80, 72, 90, 60]
+jumlah = 0
+
+for n in nilai:
+    if n >= 75:
+        print(n)
+        jumlah += 1
+
+print("Banyak nilai yang memenuhi:", jumlah)

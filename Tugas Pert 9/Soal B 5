@@ -1,0 +1,4 @@
+nama_barang = ["Buku", "Pensil", "Penghapus"]
+
+print(nama_barang[0])
+print(nama_barang[-1])

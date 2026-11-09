@@ -1,0 +1,4 @@
+nama = ["Ayu", "Bima", "Citra"]
+
+for nomor, orang in enumerate(nama, start=1):
+    print(nomor, orang)

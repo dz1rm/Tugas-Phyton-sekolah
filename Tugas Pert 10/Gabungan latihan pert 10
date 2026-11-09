@@ -1,0 +1,61 @@
+# ==========================================
+# LATIHAN 1: TUPLE
+# ==========================================
+
+jadwal = ("Senin", "Rabu", "Jumat")
+
+print("Hari pertama:", jadwal[0])
+print("Hari terakhir:", jadwal[-1])
+
+# kalau untuk menampilkan rabu begini
+print("Hari kedua:", jadwal[1])
+
+# kenapa kita menggunakan tuple saat menggunakan data ini?
+# karena, tuple itu bersifat tidak bisa diubah.
+# jadwal tidak perlu diubah jadi cocok untuk menggunakan tuple
+
+
+# ==========================================
+# LATIHAN 2: DICTIONARY
+# ==========================================
+
+buku = {
+    "judul": "Pulang",
+    "penulis": "Leila S. Chudori",
+    "tahun": "2012"
+}
+
+# menampilkan judul buku
+print("Judul buku:", buku["judul"])
+
+# menambah key stok
+buku["stok"] = 10
+# ubah dr 10 ke 8
+buku["stok"] = 8
+
+# menampilkan key dan value
+print("\nData Buku:")
+for key, value in buku.items():
+    print(key, ":", value)
+
+
+# ==========================================
+# LATIHAN 3: LIST OF DICTIONARIES
+# ==========================================
+
+# nambahin nama mhs
+mhs = [
+    {"nama": "Alya", "nilai": 85},
+    {"nama": "Fika", "nilai": 90},
+    {"nama": "Hanum", "nilai": 88}
+]
+
+# nampilin data dan nilai mhs
+for data in mhs:
+    print("Nama:", data["nama"], "Nilai:", data["nilai"])
+
+# menambahkan nama mhs baru :D
+mhs.append({"nama": "Dzikra", "nilai": 92})
+
+#print semuanya yey
+print("Jumlah data mahasiswa:", len(mhs))

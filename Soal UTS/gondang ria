@@ -1,0 +1,10 @@
+nilai = 78
+kehadiran = 85
+tugas = True
+
+if (nilai >= 75 and kehadiran >= 80) and not tugas:
+    print("Lulus")
+elif nilai >= 70 or kehadiran >= 90:
+    print("Pertimbangan")
+else:
+    print("Tidak Lulus")

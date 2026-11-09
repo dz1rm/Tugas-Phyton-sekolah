@@ -1,0 +1,7 @@
+def hitung_total(jumlah_buku):
+    total = jumlah_buku * 25000
+    print("Total pembayaran: Rp", total)
+
+hitung_total(3)
+hitung_total(5)
+hitung_total(10)

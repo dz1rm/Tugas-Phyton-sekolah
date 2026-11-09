@@ -1,0 +1,4 @@
+mata_kuliah = ["Algoritma", "Basis Data", "Statistika"]
+
+for mk in mata_kuliah:
+    print(mk)
