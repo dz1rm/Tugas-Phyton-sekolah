@@ -1,0 +1,28 @@
+
+kode_produk = [
+    "P001", "P002", "P003",
+    "P004", "P005", "P006"
+]
+
+nama_produk = [
+    "Aqua", "Mouse", "Keyboard",
+    "Monitor", "Printer", "Scanner"
+]
+
+cari_kode = input("Masukkan kode produk: ")
+
+found = False
+index = 0
+
+while not found and index < len(kode_produk):
+    if kode_produk[index] == cari_kode:
+        found = True
+    else:
+        index += 1
+
+if found:
+    print("Produk ditemukan!")
+    print("Kode produk:", kode_produk[index])
+    print("Nama produk:", nama_produk[index])
+else:
+    print("Produk tidak ditemukan.")

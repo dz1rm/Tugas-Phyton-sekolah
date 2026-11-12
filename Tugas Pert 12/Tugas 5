@@ -1,0 +1,29 @@
+daftar_nim = [
+    "NV111", "NV112", "NV113",
+    "NV114", "NV115"
+]
+
+daftar_nama = [
+    "Manchong", "Zakka", "Gema", "Dimitri", "Nate"
+]
+
+daftar_prodi = ["Rekayasa Alur Pembuangan Nafas"] * 5
+
+cari_nim = input("Masukkan NIM mahasiswa: ")
+
+found = False
+index = 0
+
+while not found and index < len(daftar_nim):
+    if daftar_nim[index] == cari_nim:
+        found = True
+    else:
+        index += 1
+
+if found:
+    print("\nData mahasiswa ditemukan!")
+    print("NIM  :", daftar_nim[index])
+    print("Nama :", daftar_nama[index])
+    print("Prodi:", daftar_prodi[index])
+else:
+    print("\nData mahasiswa tidak tersedia.")

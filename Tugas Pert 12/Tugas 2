@@ -1,0 +1,22 @@
+daftar_nilai = [
+    75, 80, 65, 90, 85,
+    70, 95, 60, 88, 78
+]
+
+cari_nilai = int(input("Masukkan nilai yang dicari: "))
+
+found = False
+index = 0
+
+while index < len(daftar_nilai):
+    if daftar_nilai[index] == cari_nilai:
+        print("Nilai ditemukan pada indeks:", index)
+        found = True
+
+    index += 1
+
+if not found:
+    print("Nilai tidak ditemukan.")
+
+else:
+    print("Pencarian selesai.")

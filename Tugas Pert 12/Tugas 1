@@ -1,0 +1,22 @@
+daftar_buku = [
+    "BK001", "BK002", "BK003", "BK004", 
+    "BK005", "BK006", "BK007", "BK008"
+]
+
+cari_buku = input("Masukkan kode buku yang dicari: ")
+
+found = False
+index = 0
+
+while not found and index < len(daftar_buku):
+    if daftar_buku[index] == cari_buku:
+        found = True
+    else:
+        index += 1
+
+if found:
+    print("Buku ditemukan!")
+    print("Kode buku:", daftar_buku[index])
+    print("Indeks:", index)
+else:
+    print("Buku tidak tersedia.")
